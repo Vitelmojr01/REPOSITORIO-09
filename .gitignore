@@ -1,0 +1,13 @@
+
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.tmp
+*.bak
+~$*
+*.docx
+*.pdf
+*.xlsx
+.git/
