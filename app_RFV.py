@@ -89,7 +89,7 @@ def main():
 
     # Verifica se há conteúdo carregado na aplicação
     if (data_file_1 is not None):
-        df_compras = pd.read_csv(data_file_1, infer_datetime_format=True, parse_dates=['DiaCompra'])
+        df_compras = pd.read_csv(data_file_1, parse_dates=['DiaCompra'])
 
         st.write('## Recência (R)')
 
